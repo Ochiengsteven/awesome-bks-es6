@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- You can find the website [here](https://ochiengsteven.github.io/awesome-books-es6/)
+- You can find the website [here](https://ochiengsteven.github.io/awesome-bks-es6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
