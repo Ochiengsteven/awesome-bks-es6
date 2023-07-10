@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <!-- import luxon -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <nav class="nav1">
+      <h1>Awesome Books</h1>
+      <ul class="nav-menu">
+        <li class="list-item">Books List</li>
+        <li class="list-item">Add New</li>
+        <li class="list-item">Contact Info</li>
+      </ul>
+    </nav>
+  </header>
+  <div class="dateTime"></div>
+  <main class="main-pg">
+    <section id="books-list">
+      <h2 class="title-text">All Awesome Books</h2>
+      <div class="all-books-list"></div>
+    </section>
+    <section id="add-book-form" class="add-book">
+      <h2 id="inpt-text">Add a New Book</h2>
+      <form action="" id="book-form2">
+        <input type="text" id="booktitle" class="books" placeholder="Title" required>
+        <br>
+        <input type="text" id="author-input" class="books" placeholder="Author" required>
+        <br>
+        <button type="submit" id="add-button">Add Book</button>
+      </form>
+    </section>
+    <section id="contact-info" class="contacts">
+      <h2 class="title-contact">Contact Information</h2>
+      <p class="contact-intro">For more information, please contact us at:</p>
+      <ul>
+        <li>Email: info@awesomebooks.com</li>
+        <li>Phone: 555-1234</li>
+        <li>Address: 123 Main St, Nairobi Kenya</li>
+      </ul>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Awesome Books. All Rights Reserved.</p>
+      </div>
+    </footer>    
+  </main>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
